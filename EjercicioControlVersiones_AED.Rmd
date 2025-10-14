@@ -1,0 +1,19 @@
+---
+title: "EjercicioControlVersiones_AED"
+author: "Iyán Álvarez"
+date: "2025-10-14"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Cálculo del área
+
+```{r calcular-area}
+
+radio <- 5
+area <- pi * radio^2
+
+area
