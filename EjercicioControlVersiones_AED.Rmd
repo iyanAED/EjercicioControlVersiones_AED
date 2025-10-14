@@ -25,3 +25,31 @@ area
 lado<-5
 area_cuadrado<-lado^2
 ```
+
+##Area del rectangulo
+
+```{r}
+base_triangulo <- 6
+altura_triangulo <- 4
+
+area_triangulo <- (base_triangulo * altura_triangulo) / 2
+area_triangulo
+```
+
+##Area del rectangulo
+
+```{r}
+base_rectangulo <- 8
+altura_rectangulo <- 3
+
+area_rectangulo <- base_rectangulo * altura_rectangulo
+area_rectangulo
+```
+
+##Llamada area del cuadrado función
+
+```{r}
+source("Perim.R")
+PerimetroCuadrado(3)
+```
+
