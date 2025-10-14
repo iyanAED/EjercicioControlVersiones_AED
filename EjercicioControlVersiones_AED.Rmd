@@ -11,9 +11,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Cálculo del área
 
-```{r calcular-area}
+```{r calcular-area-circulo}
 
 radio <- 5
 area <- pi * radio^2
 
 area
+```
+
+##Area del cuadrado
+
+```{r calcular-area-cuadrado}
+lado<-5
+area_cuadrado<-lado^2
+```
