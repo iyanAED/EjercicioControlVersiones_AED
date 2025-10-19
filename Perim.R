@@ -3,7 +3,7 @@ PerimetroCuadrado<-function(L){
 }
 
 perim_rectangulo<-function(L, A){
-  return(2*(L+A))
+  return((L+A)*2)
 }
 
 pi=3.14159
