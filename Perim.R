@@ -1,3 +1,9 @@
 PerimetroCuadrado<-function(L){
   return(4*L)
 }
+
+perim_rectangulo<-function(L, A){
+  return(2*(L+A))
+}
+
+pi=3.14159
