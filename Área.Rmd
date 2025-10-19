@@ -53,3 +53,12 @@ source("Perim.R")
 AreaCuadrado(3)
 ```
 
+##Área del trapecio
+```{r}
+B<-10
+b<-6
+h<-4
+area_trapecio<-((B+b)*h)/2
+area_trapecio
+```
+
